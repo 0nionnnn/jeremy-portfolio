@@ -43,14 +43,14 @@ const Projects = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {filteredProjects.map((project) => (
             <Card key={project.id} className="bg-black border-red-500/20 hover:border-red-500/50 transition-all duration-300 overflow-hidden">
-              <div className="relative">
+              <div className="relative group">
                 <img
                   src={project.screenshots[0]}
                   alt={project.title}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-black/50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <Button size="sm" className="bg-red-500 hover:bg-red-600">
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
+                  <Button size="sm" className="bg-red-500 hover:bg-red-600 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                     <Play size={16} className="mr-2" />
                     View Demo
                   </Button>
