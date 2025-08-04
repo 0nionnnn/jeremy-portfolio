@@ -17,17 +17,20 @@ const Hero = () => {
         <div className="absolute bottom-1/3 left-1/3 w-1 h-1 bg-red-300 rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
         <div className="absolute bottom-1/4 right-1/4 w-2 h-2 bg-red-500 rounded-full animate-pulse" style={{animationDelay: '1.5s'}}></div>
       </div>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="space-y-8">
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-bold font-mono">
+            <h1 className="text-5xl md:text-7xl font-bold font-mono animate-fade-in">
               <span className="text-white">Hello, I'm </span>
-              <span className="text-red-500">Alex Chen</span>
+              <span className="text-red-500 relative">
+                Alex Chen
+                <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-red-500 to-transparent animate-pulse"></div>
+              </span>
             </h1>
-            <h2 className="text-2xl md:text-3xl text-gray-300 font-light">
+            <h2 className="text-2xl md:text-3xl text-gray-300 font-light animate-fade-in-delay">
               Full-Stack Developer & Video Editor
             </h2>
-            <div className="w-24 h-1 bg-red-500 mx-auto"></div>
+            <div className="w-24 h-1 bg-red-500 mx-auto animate-expand"></div>
           </div>
 
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
