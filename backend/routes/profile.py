@@ -17,13 +17,13 @@ async def get_profile():
     if not profile:
         # Return default profile if none exists
         default_profile = {
-            "name": "Alex Chen",
+            "name": "Jeremy Aliermo",
             "title": "Full-Stack Developer & Video Editor",
-            "email": "alex.chen@example.com",
-            "phone": "+1 (555) 123-4567",
-            "location": "San Francisco, CA",
-            "description": "I'm a passionate Computer Engineer with 5+ years of experience in full-stack development, specializing in front-end technologies. My journey began with a fascination for creating seamless user experiences and has evolved into expertise across the entire development stack. When I'm not coding, I channel my creativity through video editing, bringing stories to life through visual narratives. This unique combination of technical precision and creative vision allows me to approach problems from multiple angles and deliver comprehensive solutions.",
-            "availability_status": "Available for freelance and full-time opportunities",
+            "email": "jeremyaliermo11@gmail.com",
+            "phone": "+63-962-1834-168",
+            "location": "Philippines, Luzon",
+            "description": "I'm a passionate Computer Engineer with 3+ years of experience in full-stack development, specializing in front-end technologies. My journey began with a fascination for creating seamless user experiences and has evolved into expertise across the entire development stack. When I'm not coding, I channel my creativity through video editing, bringing stories to life through visual narratives. This unique combination of technical precision and creative vision allows me to approach problems from multiple angles and deliver comprehensive solutions.",
+            "availability_status": "Available for freelance and part-time opportunities",
             "social_links": [
                 {"name": "GitHub", "url": "#", "icon": "Github"},
                 {"name": "LinkedIn", "url": "#", "icon": "Linkedin"},
