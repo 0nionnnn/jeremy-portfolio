@@ -40,9 +40,9 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
-            <Card key={project.id} className="bg-black border-red-500/20 hover:border-red-500/50 transition-all duration-300 overflow-hidden">
+            <Card key={project.id} className="bg-black border-red-500/20 hover:border-red-500/50 transition-all duration-300 overflow-hidden hover:shadow-2xl hover:shadow-red-500/10">
               <div className="relative group">
                 <img
                   src={project.screenshots[0]}
