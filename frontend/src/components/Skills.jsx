@@ -39,9 +39,6 @@ const Skills = () => {
                       <Progress 
                         value={skill.level} 
                         className="h-2 bg-gray-800"
-                        style={{
-                          '--progress-foreground': '#dc2626'
-                        }}
                       />
                     </div>
                   ))}
