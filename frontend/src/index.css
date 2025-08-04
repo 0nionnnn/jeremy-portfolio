@@ -16,7 +16,33 @@ code {
         monospace;
 }
 
+/* Custom animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
 
+@keyframes fadeInDelay {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes expand {
+    from { width: 0; }
+    to { width: 6rem; }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-out;
+}
+
+.animate-fade-in-delay {
+    animation: fadeInDelay 1s ease-out 0.3s both;
+}
+
+.animate-expand {
+    animation: expand 1s ease-out 0.8s both;
+}
 
 @layer base {
   :root {
@@ -73,8 +99,6 @@ code {
         --chart-5: 340 75% 55%;
     }
 }
-
-
 
 @layer base {
   * {
