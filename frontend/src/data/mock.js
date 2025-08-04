@@ -73,10 +73,10 @@ export const mockData = {
         "Data visualization dashboard"
       ],
       screenshots: [
-        "https://via.placeholder.com/800x600/1a1a1a/dc2626?text=EcoTracker+Dashboard",
-        "https://via.placeholder.com/400x700/1a1a1a/dc2626?text=Mobile+Interface"
+        "https://images.unsplash.com/photo-1627542557169-5ed71c66ed85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBtb2NrdXB8ZW58MHx8fHwxNzU0MzQyNDUyfDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1644794472051-36d154dfe487?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHAlMjBtb2NrdXB8ZW58MHx8fHwxNzU0MzQyNDUyfDA&ixlib=rb-4.1.0&q=85"
       ],
-      demoVideo: "https://via.placeholder.com/800x450/1a1a1a/dc2626?text=Demo+Video",
+      demoVideo: "https://images.unsplash.com/photo-1594948506928-2d4cad88d0af?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwyfHxtb2JpbGUlMjBhcHAlMjBtb2NrdXB8ZW58MHx8fHwxNzU0MzQyNDUyfDA&ixlib=rb-4.1.0&q=85",
       githubUrl: "#",
       liveUrl: "#",
       category: "Mobile App"
@@ -93,10 +93,10 @@ export const mockData = {
         "Integration with popular tools"
       ],
       screenshots: [
-        "https://via.placeholder.com/1200x800/1a1a1a/dc2626?text=TaskFlow+Dashboard",
-        "https://via.placeholder.com/1200x800/1a1a1a/dc2626?text=Project+Overview"
+        "https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHx3ZWIlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzU0MzQyNDU3fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1554098415-788601c80aef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzU0MzQyNDU3fDA&ixlib=rb-4.1.0&q=85"
       ],
-      demoVideo: "https://via.placeholder.com/800x450/1a1a1a/dc2626?text=TaskFlow+Demo",
+      demoVideo: "https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg",
       githubUrl: "#",
       liveUrl: "#",
       category: "Web App"
@@ -113,10 +113,10 @@ export const mockData = {
         "Brand-consistent animation"
       ],
       screenshots: [
-        "https://via.placeholder.com/1920x1080/1a1a1a/dc2626?text=Video+Thumbnail",
-        "https://via.placeholder.com/1920x1080/1a1a1a/dc2626?text=Motion+Graphics"
+        "https://images.unsplash.com/photo-1603400938371-d030ad03505b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHx2aWRlbyUyMGVkaXRpbmclMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzU0MzQyNDkwfDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1502209877429-d7c6df9eb3f9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHw0fHx2aWRlbyUyMGVkaXRpbmclMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzU0MzQyNDkwfDA&ixlib=rb-4.1.0&q=85"
       ],
-      demoVideo: "https://via.placeholder.com/800x450/1a1a1a/dc2626?text=Brand+Video",
+      demoVideo: "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg",
       category: "Video Editing"
     },
     {
@@ -131,12 +131,29 @@ export const mockData = {
         "Secure transaction history"
       ],
       screenshots: [
-        "https://via.placeholder.com/400x700/1a1a1a/dc2626?text=Wallet+Interface",
-        "https://via.placeholder.com/400x700/1a1a1a/dc2626?text=Transaction+History"
+        "https://images.pexels.com/photos/6279105/pexels-photo-6279105.jpeg",
+        "https://images.unsplash.com/photo-1633988354540-d3f4e97c67b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxkZXZlbG9wZXIlMjBzZXR1cHxlbnwwfHx8fDE3NTQzNDI0OTV8MA&ixlib=rb-4.1.0&q=85"
       ],
-      demoVideo: "https://via.placeholder.com/800x450/1a1a1a/dc2626?text=Crypto+Demo",
+      demoVideo: "https://images.unsplash.com/photo-1712628956639-638ad87c988e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxkZXZlbG9wZXIlMjBzZXR1cHxlbnwwfHx8fDE3NTQzNDI0OTV8MA&ixlib=rb-4.1.0&q=85",
       githubUrl: "#",
       category: "Mobile App"
+    },
+    {
+      id: 5,
+      title: "Developer Workspace Setup",
+      description: "Custom development environment with dual-monitor setup, optimized for full-stack development workflow and productivity.",
+      technologies: ["VS Code", "Docker", "Git", "Linux"],
+      features: [
+        "Dual-monitor configuration",
+        "Custom VS Code setup",
+        "Containerized development",
+        "Automated deployment pipeline"
+      ],
+      screenshots: [
+        "https://images.unsplash.com/photo-1693773852578-65cf594b62dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBzZXR1cHxlbnwwfHx8fDE3NTQzNDI0OTV8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1633988354540-d3f4e97c67b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxkZXZlbG9wZXIlMjBzZXR1cHxlbnwwfHx8fDE3NTQzNDI0OTV8MA&ixlib=rb-4.1.0&q=85"
+      ],
+      category: "Web App"
     }
   ],
 
