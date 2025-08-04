@@ -1,23 +1,61 @@
 import React from "react";
-import { mockData } from "../data/mock";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Progress } from "./ui/progress";
+import { useSkills } from "../hooks/usePortfolio";
 
 const Skills = () => {
-  const { skills } = mockData;
+  const { skills, loading } = useSkills();
+
+  if (loading) {
+    return (
+      <section id="skills" className="py-20 bg-black">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="animate-pulse">
+              <div className="h-12 bg-gray-700 rounded mb-4 w-64 mx-auto"></div>
+              <div className="w-20 h-1 bg-gray-700 mx-auto"></div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {[...Array(4)].map((_, categoryIndex) => (
+              <Card key={categoryIndex} className="bg-gray-900 border-red-500/20 animate-pulse">
+                <CardHeader>
+                  <div className="h-6 bg-gray-700 rounded w-48"></div>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    {[...Array(5)].map((_, skillIndex) => (
+                      <div key={skillIndex} className="space-y-2">
+                        <div className="flex justify-between items-center">
+                          <div className="h-4 bg-gray-700 rounded w-24"></div>
+                          <div className="h-4 bg-gray-700 rounded w-8"></div>
+                        </div>
+                        <div className="h-2 bg-gray-800 rounded"></div>
+                      </div>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="skills" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-mono text-white mb-4">
-            {skills.title}
+            Technical Skills
           </h2>
           <div className="w-20 h-1 bg-red-500 mx-auto"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {skills.categories.map((category, categoryIndex) => (
+          {skills.map((category, categoryIndex) => (
             <Card key={categoryIndex} className="bg-gray-900 border-red-500/20 hover:border-red-500/50 transition-all duration-300">
               <CardHeader>
                 <CardTitle className="text-xl font-mono text-red-500">
