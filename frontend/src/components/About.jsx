@@ -26,11 +26,11 @@ const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-6">
             {about.stats.map((stat, index) => (
-              <Card key={index} className="bg-black border-red-500/20 hover:border-red-500/50 transition-colors duration-300">
+              <Card key={index} className="bg-black border-red-500/20 hover:border-red-500/50 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-red-500/10">
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-bold font-mono text-red-500 mb-2">
+                  <div className="text-3xl font-bold font-mono text-red-500 mb-2 animate-pulse">
                     {stat.value}
                   </div>
                   <div className="text-gray-400 text-sm font-mono">
