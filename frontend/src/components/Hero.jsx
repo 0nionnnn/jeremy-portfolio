@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 // Fallback profile data
 const fallbackProfile = {
-  name: "Alex Chen",
+  name: "Jeremy Aliermo",
   title: "Full-Stack Developer & Video Editor",
   description: "Computer Engineer specializing in front-end development with expertise in creating stunning web and mobile applications. Bringing creative vision to life through code and video editing."
 };
@@ -62,13 +62,13 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-center space-x-6 pt-8">
-            <a href="https://github.com" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+            <a href="https://github.com/0nionnnn" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/jeremy-aliermo-7bb27836a" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:contact@example.com" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+            <a href="mailto:jeremyaliermo11@gmail.com" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
               <Mail size={24} />
             </a>
           </div>

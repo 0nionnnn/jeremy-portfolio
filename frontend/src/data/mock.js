@@ -161,13 +161,13 @@ export const mockData = {
     title: "Get In Touch",
     subtitle: "Ready to bring your next project to life?",
     description: "I'm always excited to discuss new opportunities and collaborate on innovative projects. Whether you need a full-stack developer or creative video content, let's connect!",
-    email: "alex.chen@example.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
+    email: "jeremyaliermo11@gmail.com",
+    phone: "+63-962-1834-168",
+    location: "Philippines, Luzon",
     socialLinks: [
-      { name: "GitHub", url: "#", icon: "Github" },
-      { name: "LinkedIn", url: "#", icon: "Linkedin" },
-      { name: "Email", url: "#", icon: "Mail" }
+      { name: "GitHub", url: "https://github.com/0nionnnn", icon: "Github" },
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/jeremy-aliermo-7bb27836a", icon: "Linkedin" },
+      { name: "Email", url: "mailto:jeremyaliermo11@gmail.com", icon: "Mail" }
     ],
     availability: "Available for freelance and full-time opportunities"
   }
