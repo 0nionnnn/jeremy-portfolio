@@ -1,4 +1,4 @@
-# Developer Portfolio
+# Jeremy Aliermo's Developer Portfolio
 
 A modern, responsive developer portfolio built with React, featuring a sleek dark theme with red accents.
 
@@ -39,7 +39,7 @@ This repository is configured for automatic deployment to GitHub Pages using Git
 
 2. **Push to Main Branch**:
    - The workflow will automatically trigger on push to `main`
-   - Your site will be deployed to `https://yourusername.github.io/repository-name`
+   - Your site will be deployed to `https://0nionnnn.github.io/my-portfolio`
 
 3. **Custom Domain** (Optional):
    - Add a `CNAME` file to the `frontend/public/` directory
@@ -85,8 +85,15 @@ The skills are defined in `frontend/src/components/Skills.jsx`. You can customiz
 ### Personal Information
 Update the fallback data in:
 - `Hero.jsx` - Name, title, and description
-- `About.jsx` - About section and stats
-- `Contact.jsx` - Contact information
+- `Contact.jsx` - Contact information (uses data from mock.js)
+- `data/mock.js` - All portfolio data including projects, skills, and contact info
+
+### Projects Section
+Edit the projects array in `frontend/src/data/mock.js`:
+- Update project titles, descriptions, and technologies
+- Replace screenshots and demo video URLs
+- Update GitHub and live demo links
+- Modify project categories and features
 
 ### Styling
 The project uses Tailwind CSS with a custom color scheme. Main theme colors:
@@ -127,4 +134,4 @@ yarn test
 
 ---
 
-**Made with ❤️ using React and Tailwind CSS**
+**Made with ❤️ by Jeremy Aliermo using React and Tailwind CSS**
