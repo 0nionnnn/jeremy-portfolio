@@ -9,9 +9,9 @@ export const mockData = {
     through visual narratives. This unique combination of technical precision and creative vision 
     allows me to approach problems from multiple angles and deliver comprehensive solutions.`,
     stats: [
-      { label: "Years Experience", value: "5+" },
-      { label: "Projects Completed", value: "50+" },
-      { label: "Technologies Mastered", value: "20+" },
+      { label: "Years Experience", value: "3+" },
+      { label: "Projects Completed", value: "5" },
+      { label: "Technologies Mastered", value: "9" },
       { label: "Client Satisfaction", value: "100%" }
     ]
   },
@@ -63,14 +63,14 @@ export const mockData = {
   projects: [
     {
       id: 1,
-      title: "EcoTracker Mobile App",
-      description: "A comprehensive mobile application for tracking personal carbon footprint with AI-powered suggestions for reducing environmental impact.",
-      technologies: ["React Native", "Node.js", "MongoDB", "AI/ML"],
+      title: "Hardstacks",
+      description: "Transform your study routine with Hardstucks, the ultimate customizable quiz app designed to help you conquer your toughest subjects. Whether you're preparing for finals, professional certifications, or any challenging exam, Hardstucks puts the power of personalized learning in your hands.",
+      technologies: ["Android Studio", "Firebase", "Kotlin"],
       features: [
-        "Real-time carbon footprint calculation",
-        "AI-powered eco-friendly suggestions",
-        "Social sharing and challenges",
-        "Data visualization dashboard"
+        "Create Your Own Questions",
+        "Flexible Answer Formats",
+        "Smart Review System",
+        "Quick Edit Mode"
       ],
       screenshots: [
         "https://images.unsplash.com/photo-1627542557169-5ed71c66ed85?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBtb2NrdXB8ZW58MHx8fHwxNzU0MzQyNDUyfDA&ixlib=rb-4.1.0&q=85",
@@ -83,14 +83,14 @@ export const mockData = {
     },
     {
       id: 2,
-      title: "TaskFlow Web Application",
-      description: "A modern project management web application with real-time collaboration features and advanced analytics.",
-      technologies: ["React", "TypeScript", "FastAPI", "PostgreSQL"],
+      title: "Mabuhay Airlines",
+      description: "Experience the convenience of modern air travel with Mabuhay Airlines' intuitive online booking platform. Skip the long lines and phone calls - book your perfect flight in just a few clicks, anytime and anywhere.",
+      technologies: ["VS code", "Python", "Html", "SQL", "Javascript", "CSS"],
       features: [
-        "Real-time collaborative editing",
-        "Advanced project analytics",
-        "Team management system",
-        "Integration with popular tools"
+        "Easy Flight Search",
+        "Real-Time Availability",
+        "Flexible Booking Options",
+        "Manage Your Booking"
       ],
       screenshots: [
         "https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHx3ZWIlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzU0MzQyNDU3fDA&ixlib=rb-4.1.0&q=85",
@@ -103,14 +103,14 @@ export const mockData = {
     },
     {
       id: 3,
-      title: "Brand Showcase Video",
-      description: "A dynamic promotional video showcasing a tech startup's innovative products with motion graphics and compelling narrative.",
-      technologies: ["Premiere Pro", "After Effects", "Cinema 4D"],
+      title: "Professional Video Editing Services",
+      description: "Currently collaborating with streamer MomoMonii, delivering custom-edited content that captures their personality and engages their audience. From highlight reels to full stream compilations, I adapt my editing style to match their brand and vision.",
+      technologies: ["Premiere Pro", "After Effects", "Twitch", "Youtube"],
       features: [
-        "3D motion graphics",
-        "Color grading and correction",
-        "Sound design and mixing",
-        "Brand-consistent animation"
+        "Flexible Editing Styles",
+        "Multiple Content Types",
+        "Custom Graphics & Effects",
+        "Revision-Friendly Process"
       ],
       screenshots: [
         "https://images.unsplash.com/photo-1603400938371-d030ad03505b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHx2aWRlbyUyMGVkaXRpbmclMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzU0MzQyNDkwfDA&ixlib=rb-4.1.0&q=85",
@@ -121,14 +121,14 @@ export const mockData = {
     },
     {
       id: 4,
-      title: "CryptoWallet Mobile App",
-      description: "Secure cryptocurrency wallet app with multi-currency support and advanced security features.",
-      technologies: ["Flutter", "Blockchain API", "Biometric Auth"],
+      title: "PPMS (Mobile App)",
+      description: "Streamline community healthcare delivery with our comprehensive mobile application designed specifically for barangay health workers and parents of preschoolers across Imus City. This integrated platform bridges the gap between healthcare providers and families, ensuring better health outcomes for our youngest community members.",
+      technologies: ["Android Studio", "Kotlin", "API"],
       features: [
-        "Multi-currency support",
-        "Biometric authentication",
-        "Real-time price tracking",
-        "Secure transaction history"
+        "Centralized Database",
+        "Multiple User Interface",
+        "Multi-Platform Integration",
+        "Child Health Tracking"
       ],
       screenshots: [
         "https://images.pexels.com/photos/6279105/pexels-photo-6279105.jpeg",
@@ -140,14 +140,15 @@ export const mockData = {
     },
     {
       id: 5,
-      title: "Developer Workspace Setup",
-      description: "Custom development environment with dual-monitor setup, optimized for full-stack development workflow and productivity.",
-      technologies: ["VS Code", "Docker", "Git", "Linux"],
+      title: "PPMS (Website)",
+      description: "A centralized web-based health management system designed specifically for barangay health workers, parents of preschoolers, and healthcare administrators across Imus City. This comprehensive platform streamlines community healthcare delivery through integrated data management and coordinated care across multiple barangays.",
+      technologies: ["VS Code", "Python", "Django", "HTML", "Javascript", "CSS", "SQL", "C++"],
       features: [
-        "Dual-monitor configuration",
-        "Custom VS Code setup",
-        "Containerized development",
-        "Automated deployment pipeline"
+        "Centralized Database System",
+        "Multi-User Dashboard",
+        "BMI Hardware Integration",
+        "Comprehensive Child Health Profiles",
+        "Advanced Analytics & Reporting"
       ],
       screenshots: [
         "https://images.unsplash.com/photo-1693773852578-65cf594b62dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBzZXR1cHxlbnwwfHx8fDE3NTQzNDI0OTV8MA&ixlib=rb-4.1.0&q=85",
