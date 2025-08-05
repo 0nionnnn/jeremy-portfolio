@@ -9,6 +9,7 @@ Your portfolio has been successfully converted to a static site! The ZIP file co
 - ✅ **GitHub Actions workflows** for automatic deployment
 - ✅ **Optimized for GitHub Pages** deployment
 - ✅ **Responsive React portfolio** with modern design
+- ✅ **Clean interface** (no watermarks or branding)
 
 ## 🚀 Step-by-Step Deployment to GitHub Pages
 
@@ -16,7 +17,7 @@ Your portfolio has been successfully converted to a static site! The ZIP file co
 
 1. Go to [GitHub.com](https://github.com) and log in to your account (`0nionnnn`)
 2. Click the "+" icon in the top right corner and select "New repository"
-3. Name your repository: `my-portfolio`
+3. Name your repository: `jeremy-portfolio`
 4. Make sure it's set to **Public** (required for free GitHub Pages)
 5. **DO NOT** initialize with README, .gitignore, or license (we have our own files)
 6. Click "Create repository"
@@ -36,8 +37,8 @@ Your portfolio has been successfully converted to a static site! The ZIP file co
 
    **Option B: Use Git Commands** (if you have Git installed)
    ```bash
-   git clone https://github.com/0nionnnn/my-portfolio.git
-   cd my-portfolio
+   git clone https://github.com/0nionnnn/jeremy-portfolio.git
+   cd jeremy-portfolio
    # Copy all extracted files to this folder
    git add .
    git commit -m "Initial portfolio setup"
@@ -56,7 +57,7 @@ Your portfolio has been successfully converted to a static site! The ZIP file co
 1. Go to the "Actions" tab in your repository
 2. You should see a workflow running called "Deploy React App to GitHub Pages"
 3. Wait for it to complete (usually takes 2-3 minutes)
-4. Once it's done, your site will be available at: `https://0nionnnn.github.io/my-portfolio`
+4. Once it's done, your site will be available at: `https://0nionnnn.github.io/jeremy-portfolio`
 
 ## 🎨 How to Customize Your Portfolio
 
@@ -118,6 +119,7 @@ If you want to test changes locally:
 ✅ **Skills Showcase** - Interactive progress bars
 ✅ **Smooth Animations** - Professional transitions
 ✅ **SEO Optimized** - Better search engine visibility
+✅ **Clean Interface** - No watermarks or third-party branding
 
 ## 🆘 Troubleshooting
 
@@ -144,6 +146,7 @@ If you want to test changes locally:
 - **Location**: Philippines, Luzon
 - **GitHub**: https://github.com/0nionnnn
 - **LinkedIn**: https://www.linkedin.com/in/jeremy-aliermo-7bb27836a
+- **Portfolio URL**: https://0nionnnn.github.io/jeremy-portfolio
 
 Your portfolio is now ready for the world to see! 🎉
 

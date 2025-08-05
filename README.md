@@ -39,7 +39,7 @@ This repository is configured for automatic deployment to GitHub Pages using Git
 
 2. **Push to Main Branch**:
    - The workflow will automatically trigger on push to `main`
-   - Your site will be deployed to `https://0nionnnn.github.io/my-portfolio`
+   - Your site will be deployed to `https://0nionnnn.github.io/jeremy-portfolio`
 
 3. **Custom Domain** (Optional):
    - Add a `CNAME` file to the `frontend/public/` directory
