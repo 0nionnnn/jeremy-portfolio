@@ -70,7 +70,7 @@ const Footer = () => {
         <div className="border-t border-red-500/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm font-mono">
-              © {currentYear} Alex Chen. All rights reserved.
+              © {currentYear} Jeremy Aliermo. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm flex items-center mt-4 md:mt-0">
               Made with <Heart className="text-red-500 mx-1" size={14} /> and lots of code
