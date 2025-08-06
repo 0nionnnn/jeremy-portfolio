@@ -13,10 +13,10 @@ const fallbackAbout = {
 };
 
 const fallbackStats = [
-  { label: "Years Experience", value: "5+" },
-  { label: "Projects Completed", value: "50+" },
-  { label: "Technologies Mastered", value: "20+" },
-  { label: "Client Satisfaction", value: "100%" }
+  { label: "Years Experience", value: "3+" },
+  { label: "Projects Completed", value: "5+" },
+  { label: "Technologies Mastered", value: "9" },
+  { label: "Client Satisfaction", value: "99%" }
 ];
 
 const About = () => {
