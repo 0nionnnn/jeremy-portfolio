@@ -1,7 +1,7 @@
 export const mockData = {
   about: {
     title: "About Me",
-    description: `I'm a passionate Computer Engineer with 5+ years of experience in full-stack development, 
+    description: `I'm a passionate Computer Engineer with 3+ years of experience in full-stack development, 
     specializing in front-end technologies. My journey began with a fascination for creating seamless 
     user experiences and has evolved into expertise across the entire development stack.
     
